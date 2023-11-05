@@ -11,17 +11,17 @@
  * Author:            Khoi Tran
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       lucky-wheel
+ * Text Domain:       plugin-name
  * Domain Path:       /languages
  */
 
-use PluginName\PluginName;
 use PluginName\Activator;
 use PluginName\Deactivator;
+use PluginName\PluginName;
 
 // If this file is called directly, abort.
-if ( ! defined( 'WPINC' ) ) {
-	die;
+if ( ! defined( 'ABSPATH' ) ) {
+	die();
 }
 
 /**

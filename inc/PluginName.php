@@ -3,7 +3,7 @@
 namespace PluginName;
 
 
-class LuckyWheel {
+class PluginName {
 
     public function __construct() {
         // Do nothing
